@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Table</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Table 1</h1>
+  <table>
+    <tr>
+        <th>Category</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Alpha</td>
+        <td><%= values.A5 %> + <%= values.A20 %></td>
+    </tr>
+    <tr>
+        <td>Beta</td>
+        <td><%= values.A15 %> / <%= values.A7 %></td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td><%= values.A13 %> * <%= values.A12 %></td>
+    </tr>
+  </table>
+
+  <h1>Table 2</h1>
+  <table>
+    <tr>
+        <th>Category</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Alpha</td>
+        <td><%= table2.Alpha %></td>
+    </tr>
+    <tr>
+        <td>Beta</td>
+        <td><%= table2.Beta %></td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td><%= table2.Charlie %></td>
+    </tr>
+  </table>
+</body>
+</html>
