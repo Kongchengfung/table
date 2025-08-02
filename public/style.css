@@ -1,4 +1,15 @@
 table {
-    width: 100%;
-    border-color: red;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: bold;
 }
